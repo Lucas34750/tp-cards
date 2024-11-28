@@ -32,7 +32,7 @@ class CardController extends AbstractController {
             $repo->insert($card);
             
             // Rediriger vers la liste des cartes après l'ajout
-            $this->redirect("/card/list");
+            $this->redirect("/");
         }
 
         // Rendre la vue "card/create" pour afficher le formulaire d'ajout avec un titre
