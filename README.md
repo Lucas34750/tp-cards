@@ -12,11 +12,11 @@ Cette application permet de gérer des cartes avec des questions et des réponse
 
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone <url-du-repository>
+   git clone https://github.com/Lucas34750/tp-cards.git
    ```
 2. Accédez au répertoire de l'application :
    ```bash
-   cd chemin-vers-votre-projet
+   cd tp-Card
    ```
 3. Installez les dépendances avec Composer :
    ```bash
@@ -51,12 +51,3 @@ Cette application permet de gérer des cartes avec des questions et des réponse
 ## Notes
 
 - Assurez-vous que le fichier `data/data.json` est accessible en écriture pour que l'ajout de cartes fonctionne correctement.
-- Si vous rencontrez des erreurs, consultez le fichier `error.php` pour plus de détails.
-
-## Aide
-
-Pour toute question ou problème, n'hésitez pas à me contacter ou à ouvrir une issue dans ce dépôt.
-
----
-
-**Bon développement !**
