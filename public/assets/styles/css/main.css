@@ -1,0 +1,176 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Conteneur pour uniformiser les sections */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Formulaire */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Liste des cartes */
+.list-container {
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+}
+
+li p {
+    margin: 0;
+    color: #555;
+}
+
+li p strong {
+    color: #333;
+}
+/* Header général */
+header {
+    background-color: #4CAF50; /* Couleur de fond */
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: center; /* Centre les liens horizontalement */
+    align-items: center;
+    gap: 20px; /* Espacement entre les liens */
+}
+
+header nav a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: white; /* Couleur du texte */
+    font-size: 1rem; /* Taille du texte */
+    font-weight: bold;
+    padding: 10px 15px; /* Espacement interne des liens */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+header nav a:hover {
+    background-color: #45a049; /* Couleur au survol */
+    transform: scale(1.1); /* Agrandit légèrement au survol */
+}
+
+header nav a:active {
+    background-color: #3e8e41; /* Couleur lorsqu'on clique */
+}
+
+header nav a:first-child {
+    margin-right: auto; /* Optionnel : aligne le premier lien à gauche */
+}
+/* Bouton pour cacher/afficher les réponses */
+.toggle-btn {
+    display: inline-block;
+    background-color: #4CAF50; /* Couleur principale */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px 15px; /* Espacement interne */
+    font-size: 0.9rem; /* Taille de la police */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur interactif */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-btn:hover {
+    background-color: #45a049; /* Couleur au survol */
+    transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+
+.toggle-btn:active {
+    background-color: #3e8e41; /* Couleur lorsqu'on clique */
+    transform: scale(0.95); /* Légère réduction à l'appui */
+}
+
+/* Style pour la réponse cachée */
+.answer {
+    display: none; /* Cache la réponse par défaut */
+    color: #555; /* Couleur douce pour le texte de la réponse */
+    margin-top: 10px;
+}
