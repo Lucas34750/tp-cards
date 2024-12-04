@@ -6,7 +6,9 @@ Cette application permet de gérer des cartes avec des questions et des réponse
 ## Prérequis
 
 - **PHP** : Assurez-vous d'avoir PHP installé sur votre machine (version 7.4 ou ultérieure recommandée).
+- https://www.php.net/manual/fr/install.php
 - **Composer** : Nécessaire pour gérer les dépendances de l'application.
+- https://getcomposer.org/download/
 
 ## Installation
 
